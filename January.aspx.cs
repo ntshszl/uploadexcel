@@ -20,7 +20,7 @@ namespace GIT_
 
         }
 
-        private void btnUpload_Click(object sender, EventArgs e)
+        protected void btnUpload_Click(object sender, EventArgs e)
         {
             if (FileUploadExcel.HasFile)
             {
